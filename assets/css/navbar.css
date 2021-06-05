@@ -1,0 +1,25 @@
+.navbar-brand {
+  padding: 0;
+}
+
+#nav_logo {
+  height: 35px;
+  transition: filter, transform .2s;
+}
+
+#nav_logo:hover {
+  transform: scale(1.1);
+  filter: brightness(0) saturate(100%) invert(82%) sepia(77%) saturate(625%) hue-rotate(338deg) brightness(102%) contrast(102%) drop-shadow(0px 0px 10px #ffde1a);
+}
+
+#navbar-container {
+  padding: 0 1em;
+}
+
+.active {
+  color: var(--brand-color-light)!important;
+}
+
+a {
+}
+

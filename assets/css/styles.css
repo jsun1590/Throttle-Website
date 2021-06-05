@@ -1,0 +1,87 @@
+:root {
+  --brand-color: #ffde1a;
+  --brand-color-light: #ffea74;
+  --very-dark: #181818;
+  --light-gray: #f0f9ff;
+  --dark: #282d32;
+  --dark-1: #222;
+  --text-color: #9ea5ab;
+  --text-color-dark: #64686c;
+  --text-color-light: #c9cacc;
+}
+
+.bg-dark {
+  background-color: var(--very-dark)!important;
+}
+
+.bg1 {
+  background-color: var(--dark-1);
+}
+
+.highlight {
+  color: var(--brand-color);
+  font-weight: bold;
+}
+
+.text {
+  color: var(--text-color);
+}
+
+/* quote */
+
+blockquote {
+  font-family: Georgia, serif;
+  position: relative;
+  padding: 0.5em 3em 0.5em 3em;
+}
+
+@media (min-width: 768px) {
+  .blockquote p {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .blockquote p {
+    font-size: 2em;
+  }
+}
+
+.blockquote p {
+  font-size: 1em;
+}
+
+blockquote:before {
+  font-family: Georgia, serif;
+  position: absolute;
+  font-size: 6em;
+  line-height: 1;
+  top: 0;
+  left: 0;
+  content: "\201C";
+}
+
+blockquote:after {
+  font-family: Georgia, serif;
+  position: absolute;
+  float: right;
+  font-size: 6em;
+  line-height: 1;
+  right: 0;
+  bottom: -0.5em;
+  content: "\201D";
+}
+
+figure {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.blockquote-footer {
+  font-size: 2em;
+}
+
+#nyt {
+  font-family: 'Chomsky Regular';
+}
+
