@@ -6,7 +6,7 @@
   --dark: #282d32;
   --dark-1: #222;
   --text-color: #9ea5ab;
-  --text-color-dark: #64686c;
+  --text-color-dark: #6c6e70;
   --text-color-light: #c9cacc;
 }
 
@@ -83,5 +83,10 @@ figure {
 
 #nyt {
   font-family: 'Chomsky Regular';
+}
+
+.page-heading {
+  border-bottom-style: solid;
+  border-bottom-color: var(--brand-color);
 }
 

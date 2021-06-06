@@ -1,0 +1,53 @@
+/* sponsors */
+
+#sponsors {
+  margin: 0 10%;
+  padding-bottom: 20px;
+  width: 80%;
+}
+
+#sponsors > h1 {
+  margin: 70px 0 10px 0;
+}
+
+#sponsors .owl-next:focus, .owl-prev:focus {
+  outline: none;
+}
+
+.owl-prev, .owl-next {
+  display: block !important;
+  width: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0px solid black;
+  font-size: 2em !important;
+}
+
+#sponsors .owl-prev {
+  left: -20px;
+  top: 43%;
+}
+
+#sponsors .owl-next {
+  right: -20px;
+  top: 45%;
+}
+
+#sponsors .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+#sponsors img {
+  height: auto;
+  width: 75%;
+  transition: 0.2s ease-in-out;
+}
+
+#sponsors img:hover {
+  width: 80%;
+}
+
