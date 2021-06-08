@@ -7,6 +7,7 @@ $(document).ready(() => {
     autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
+    navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
   });
 });
 

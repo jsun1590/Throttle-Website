@@ -1,13 +1,16 @@
 .footer-dark {
-  padding: 20px 0;
-  background-color: #282d32;
+  background-color: var(--dark-blue);
+  padding-top: 40px;
+}
+
+.footer-dark .item {
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 .footer-dark h3 {
-  margin-top: 0;
-  margin-bottom: 12px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .footer-dark ul {
@@ -27,28 +30,6 @@
   color: var(--text-color-light);
 }
 
-@media (max-width:767px) {
-  .footer-dark .item:not(.social) {
-    text-align: center;
-    padding-bottom: 20px;
-  }
-}
-
-.footer-dark .item.text {
-  margin-bottom: 36px;
-}
-
-.footer-dark .item.social {
-  text-align: center;
-}
-
-@media (max-width:991px) {
-  .footer-dark .item.social {
-    text-align: center;
-    margin-top: 20px;
-  }
-}
-
 .footer-dark .item.social > a {
   font-size: 20px;
   width: 36px;
@@ -64,7 +45,7 @@
 }
 
 .footer-dark .item.social > a:hover {
-  transform: translateY(-4px);
+  transform: translateY(-5px);
 }
 
 .footer-dark .facebook:hover {
@@ -99,14 +80,53 @@
 
 .footer-dark .copyright {
   color: var(--text-color-dark);
-  text-align: center;
-  padding-top: 24px;
   font-size: 13px;
-  margin-bottom: 0;
+  margin: 15px 0 0 0;
 }
 
 .footer-logo {
-  height: 50px;
-  margin-bottom: 5px;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .footer-logo {
+    width: 100%;
+  }
+}
+
+.language {
+  border: solid;
+}
+
+.resize {
+  border: solid;
+  height: 39px;
+  margin-left: 7px;
+}
+
+@media (min-width: 768px) {
+  .resize {
+    margin: 14px 7px 0px 7px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .resize {
+    margin: 0 0 0 10px;
+  }
+}
+
+.resize > img {
+  height: 100%;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  background-color: var(--very-dark-blue);
+}
+
+. {
 }
 

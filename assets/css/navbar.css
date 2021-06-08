@@ -1,9 +1,14 @@
+.navbar {
+  background-color: var(--very-dark)!important;
+}
+
 .navbar-brand {
   padding: 0;
+  height: 40px;
 }
 
 #nav_logo {
-  height: 35px;
+  height: 100%;
   transition: filter, transform .2s;
 }
 
@@ -39,5 +44,13 @@
 
 .nav-link:hover::after {
   transform: scaleX(1);
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  background-color: white !important;
+}
+
+.hamburger.is-active:hover, .hamburger:hover {
+  opacity: 1 !important;
 }
 

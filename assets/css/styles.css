@@ -3,19 +3,29 @@
   --brand-color-light: #ffea74;
   --very-dark: #181818;
   --light-gray: #f0f9ff;
-  --dark: #282d32;
+  --dark-blue: #282d32;
+  --very-dark-blue: #1f2328;
   --dark-1: #222;
   --text-color: #9ea5ab;
   --text-color-dark: #6c6e70;
   --text-color-light: #c9cacc;
 }
 
-.bg-dark {
-  background-color: var(--very-dark)!important;
+main {
+  padding-bottom: 20px;
+}
+
+.col-10.col-sm-8.col-md-6.col-lg-5.col-xl-4.offset-1.offset-sm-2.offset-md-0.offset-lg-1.offset-xl-1.offset-xxl-2.align-self-center.item {
 }
 
 .bg1 {
   background-color: var(--dark-1);
+}
+
+.page-heading {
+  border-bottom-style: solid;
+  border-bottom-color: var(--brand-color);
+  margin-bottom: 20px;
 }
 
 .highlight {
@@ -25,6 +35,16 @@
 
 .text {
   color: var(--text-color);
+}
+
+*:focus {
+  box-shadow: none !important;
+}
+
+.btn-primary {
+  color: black;
+  background-color: var(--brand-color);
+  border-color: var(--light-gray);
 }
 
 /* quote */
@@ -83,10 +103,5 @@ figure {
 
 #nyt {
   font-family: 'Chomsky Regular';
-}
-
-.page-heading {
-  border-bottom-style: solid;
-  border-bottom-color: var(--brand-color);
 }
 

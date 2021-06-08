@@ -1,9 +1,8 @@
 /* sponsors */
 
 #sponsors {
-  margin: 0 10%;
-  padding-bottom: 20px;
-  width: 80%;
+  margin: auto;
+  width: calc(100% - 32px);
 }
 
 #sponsors > h1 {
@@ -14,24 +13,21 @@
   outline: none;
 }
 
-.owl-prev, .owl-next {
+#sponsors .owl-prev, .owl-next {
   display: block !important;
-  width: 15px;
+  width: 16px;
   position: absolute;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
-  border: 0px solid black;
   font-size: 2em !important;
 }
 
 #sponsors .owl-prev {
   left: -20px;
-  top: 43%;
 }
 
 #sponsors .owl-next {
   right: -20px;
-  top: 45%;
 }
 
 #sponsors .item {
@@ -44,10 +40,14 @@
 #sponsors img {
   height: auto;
   width: 75%;
-  transition: 0.2s ease-in-out;
+  transition: width 0.2s ease-in-out;
 }
 
 #sponsors img:hover {
   width: 80%;
+}
+
+#sponsors .owl-nav {
+  margin: 0;
 }
 
