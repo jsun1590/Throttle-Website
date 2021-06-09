@@ -26,12 +26,14 @@ $(document).ready(() => {
         append_json(json);
     });
 
-    $(document).on('click', '.listen', function() {
+    $(document).on('click', '.listen, .return', function() {
+        $(this).parents(':nth(1)').find('.listen').prop('disabled', true);
         if ($(this).parents(':nth(1)').css('transform') == 'none') {
             $(this).parents(':nth(1)').css('transform','rotateY(180deg)');
         }
         else {
-            $(this).parents(':nth(1)').css('transform','' );
+           $(this).parents(':nth(1)').find('.listen').prop('disabled', false);
+            $(this).parents(':nth(1)').css('transform', '');
         }
     });
 
