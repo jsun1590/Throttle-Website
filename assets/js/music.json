@@ -1,11 +1,19 @@
 [{
   "name": "Where U R",
-  "imgSrc": "",
-  "imgAlt": "",
+  "imgSrc": "where_u_r.jpg",
   "spotifyLink": ""
 }, {
-  "name": "Cities (Acoustics)",
-  "imgSrc": "",
-  "imgAlt": "",
+  "name": "Cities (Acoustic)",
+  "imgSrc": "cities_acoustic.jpg",
+  "spotifyLink": ""
+},
+{
+  "name": "Japan",
+  "imgSrc": "japan.jpg",
+  "spotifyLink": ""
+},
+{
+  "name": "Japan (Acoustic)",
+  "imgSrc": "japan_acoustic.jpg",
   "spotifyLink": ""
 }]

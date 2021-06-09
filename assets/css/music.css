@@ -35,14 +35,17 @@
 
 .flip-card-back {
   background-color: var(--very-dark);
-  /*color: white;*/
   transform: rotateY(180deg);
 }
 
-.flip-card .album-cover {
+.flip-card .music-image {
+  width: 100%;
 }
 
-.flip-card .album-image {
-  width: 100%;
+.listen {
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  transform: translate(-50%, 0);
 }
 

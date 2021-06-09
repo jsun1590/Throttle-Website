@@ -1,0 +1,14 @@
+.contact-info-ul .fas {
+  margin-right: 15px;
+}
+
+.contact-info-ul .fa-map-marker-alt {
+  width: 32px;
+  text-align: center;
+  /*margin-left: 5px;*/
+}
+
+.contact-info-ul .contact-info {
+  font-size: 2em;
+}
+

@@ -12,26 +12,27 @@ function append_json(musicData) {
 
     //Populate it
     $(newItem).find(".music-name").html(object.name);
+    $(newItem).find(".music-image").attr("src", "music_cover/" + object.imgSrc).attr("alt", object.name);
+    $(newItem).find(".music-lightbox").attr("href", "music_cover/" + object.imgSrc);
 
     $("#card-row").append(newItem);
   });
 }
 
 $(document).ready(() => {
-    
+
     $.getJSON("assets/js/music.json", function(json) {
         console.log(json);
         append_json(json);
     });
-    
+
     $(document).on('click', '.listen', function() {
         if ($(this).parents(':nth(1)').css('transform') == 'none') {
             $(this).parents(':nth(1)').css('transform','rotateY(180deg)');
-        } 
+        }
         else {
             $(this).parents(':nth(1)').css('transform','' );
         }
     });
-    
-});
 
+});
