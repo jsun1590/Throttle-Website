@@ -12,8 +12,12 @@ function append_json(musicData) {
 
     //Populate it
     $(newItem).find(".music-name").html(object.name);
-    $(newItem).find(".music-image").attr("src", "music_cover/" + object.imgSrc).attr("alt", object.name);
-    $(newItem).find(".music-lightbox").attr("href", "music_cover/" + object.imgSrc);
+    $(newItem).find(".music-description").html(object.type);
+    $(newItem).find(".music-year").html("Released: "+object.year);
+    $(newItem).find(".music-image").attr("src", "music_covers/" + object.imgSrc).attr("alt", object.name);
+    $(newItem).find(".music-spotify").attr("src", object.spotifyLink)
+    $(newItem).find(".music-lightbox").attr("href", "music_covers/" + object.imgSrc);
+    $(newItem).find(".music-lightbox").attr("data-lightbox", object.id)
 
     $("#card-row").append(newItem);
   });
@@ -22,10 +26,10 @@ function append_json(musicData) {
 $(document).ready(() => {
 
     $.getJSON("assets/js/music.json", function(json) {
-        console.log(json);
+        // console.log(json);
         append_json(json);
-    });
-
+    });    
+    
     $(document).on('click', '.listen, .return', function() {
         $(this).parents(':nth(1)').find('.listen').prop('disabled', true);
         if ($(this).parents(':nth(1)').css('transform') == 'none') {

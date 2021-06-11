@@ -1,19 +1,83 @@
 [{
-  "name": "Where U R",
-  "imgSrc": "where_u_r.jpg",
-  "spotifyLink": ""
-}, {
   "name": "Cities (Acoustic)",
+  "type": "Single",
+  "id": "1",
+  "year": "2021",
   "imgSrc": "cities_acoustic.jpg",
-  "spotifyLink": ""
+  "spotifyLink": "https://open.spotify.com/embed/track/4BwN6GNtTrN6ehU07fRt0O"
 },
 {
-  "name": "Japan",
-  "imgSrc": "japan.jpg",
-  "spotifyLink": ""
+  "name": "Heroes (Remixes)",
+  "type": "Album",
+  "id": "2",
+  "year": "2020",
+  "imgSrc": "heroes_remixes.jpg",
+  "spotifyLink": "https://open.spotify.com/embed/album/2Wb9aL3mjxa0j1zpPmsjDZ"
+},
+{
+  "name": "Heroes",
+  "type": "Single",
+  "id": "3",
+  "year": "2020",
+  "imgSrc": "heroes.jpg",
+  "spotifyLink": "https://open.spotify.com/embed/track/1rJmkWNs7uVpjiB25DbIIG"
 },
 {
   "name": "Japan (Acoustic)",
+  "type": "Single",
+  "id": "4",
+  "year": "2019",
   "imgSrc": "japan_acoustic.jpg",
-  "spotifyLink": ""
-}]
+  "spotifyLink": "https://open.spotify.com/embed/track/2VGdUITtbc8CDKZD4p6XPV"
+},
+{
+  "name": "Where U R",
+  "type": "Album",
+  "id": "5",
+  "year": "2019",
+  "imgSrc": "where_u_r.jpg",
+  "spotifyLink": "https://open.spotify.com/embed/album/4mDRIZ4BrOR14zUdF8JZUO"
+},
+
+{
+  "name": "Japan",
+  "type": "Single",
+  "id": "6",
+  "year": "2019",
+  "imgSrc": "japan.jpg",
+  "spotifyLink": "https://open.spotify.com/embed/track/29rdnajLrCXu0wDPpBA15p"
+},
+{
+  "name": "Dreamer",
+  "type": "Single",
+  "id": "7",
+  "year": "2019",
+  "imgSrc": "dreamer.jpg",
+  "spotifyLink": "https://open.spotify.com/embed/track/4PZSK9emDiCzkvT3yMWtOT"
+},
+{
+  "name": "Boombox",
+  "type": "Single",
+  "id": "8",
+  "imgSrc": "boombox.jpg",
+  "year": "2013",
+  "spotifyLink": "https://open.spotify.com/embed/track/4AeUAfrdEjyZmZ53Khycpn"
+},
+{
+  "name": "French Kiss",
+  "type": "Single",
+  "id": "9",
+  "year": "2012",
+  "imgSrc": "french_kiss.jpg",
+  "spotifyLink": "https://open.spotify.com/embed/track/3LgyEdFCLLpSs5ONT3reph"
+},
+{
+  "name": "Next Big Thing",
+  "type": "Single",
+  "id": "10",
+  "year": "2012",
+  "imgSrc": "next_big_thing.jpg",
+  "spotifyLink": "https://open.spotify.com/embed/track/2VGdUITtbc8CDKZD4p6XPV"
+}
+]
+

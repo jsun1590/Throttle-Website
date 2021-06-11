@@ -15,9 +15,6 @@ main {
   padding-bottom: 20px;
 }
 
-.col-10.col-sm-8.col-md-6.col-lg-5.col-xl-4.offset-1.offset-sm-2.offset-md-0.offset-lg-1.offset-xl-1.offset-xxl-2.align-self-center.item {
-}
-
 .bg1 {
   background-color: var(--dark-1);
 }
@@ -25,7 +22,7 @@ main {
 .page-heading {
   border-bottom-style: solid;
   border-bottom-color: var(--brand-color);
-  margin-bottom: 20px;
+  margin: 30px 0;
 }
 
 .highlight {
@@ -103,5 +100,15 @@ figure {
 
 #nyt {
   font-family: 'Chomsky Regular';
+}
+
+.modal.fade .modal-dialog.modal-dialog-zoom {
+  -webkit-transform: scale(.5);
+  transform: scale(.5);
+}
+
+.modal.show .modal-dialog.modal-dialog-zoom {
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 

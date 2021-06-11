@@ -1,0 +1,16 @@
+.gallery-image {
+  width: 100%;
+}
+
+.gallery-item {
+  width: 0;
+  display: block;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  transition: all 0.1s;
+}
+
+#gallery main {
+  min-height: 100vh;
+}
+
