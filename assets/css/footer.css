@@ -96,6 +96,9 @@
 }
 
 .language {
+  width: 116.16px;
+  padding-left: 10px;
+  padding-right: 10px;
   border: solid;
 }
 
@@ -125,8 +128,5 @@
   margin-top: 40px;
   padding-top: 20px;
   background-color: var(--very-dark-blue);
-}
-
-. {
 }
 

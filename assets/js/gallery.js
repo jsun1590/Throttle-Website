@@ -5,7 +5,7 @@ $(document).ready(() => {
 
     var macy = Macy({
     container: '#gallery-1',
-    waitForImages: true,
+    waitForImages: false,
     margin: 24,
     columns: 3,
     breakAt: {
@@ -15,6 +15,7 @@ $(document).ready(() => {
         400: 1
     }
     });
+    
 
     $(".filter-group button").on("click", function(){
         var filtertag = $(this).attr('class').replace('btn btn-primary ', '');
@@ -26,8 +27,7 @@ $(document).ready(() => {
             macy.recalculate(true, true);
         });
     });
-    $(window).on('resize', function(){
-    macy.recalculate(true, true);
-});
+    
+
     
 });

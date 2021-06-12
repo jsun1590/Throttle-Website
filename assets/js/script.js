@@ -7,4 +7,8 @@ $(document).ready(() => {
   $(".hamburger").on("click", function() {
     $(this).toggleClass("is-active");
   });
+
+  $('.language-menu a').click(function(){
+  $('.language').html('<i class="fas fa-globe"></i>' + $(this).text())
+  })
 });
