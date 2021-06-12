@@ -9,10 +9,17 @@ $(document).ready(() => {
     autoplayHoverPause: true,
     navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
   });
+
+  $('video').each(function(){
+    if ($(this).is(":not(:in-viewport)")) {
+        $(this)[0].play();
+    } else {
+        $(this)[0].pause();
+    }
+  })
 });
 
 jQuery(document.documentElement).keyup(function (event) {
-
   var owl = jQuery(".owl-carousel");
   // handle cursor keys
   if (event.keyCode == 37) {
