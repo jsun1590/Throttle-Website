@@ -1,8 +1,13 @@
-#portrait {
-  width: 40%;
-  padding-right: 20px;
+.portrait {
+  width: 100%;
 }
 
-#about-intro {
+#i-am {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+#about-me, #biography {
+  margin-bottom: 100px;
 }
 

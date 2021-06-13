@@ -15,19 +15,19 @@ $(document).ready(() => {
         400: 1
     }
     });
-    
+
 
     $(".filter-group button").on("click", function(){
         var filtertag = $(this).attr('class').replace('btn btn-primary ', '');
         console.log(filtertag)
-        $(`.gallery-item.${filtertag}`).fadeIn(100,  function() {
+        $(`.gallery-item.${filtertag}`).fadeIn(200,  function() {
             macy.recalculate(true, true);
         });
         $(`.gallery-item:not(.${filtertag})`).fadeOut(200,  function() {
             macy.recalculate(true, true);
         });
     });
-    
 
-    
+
+
 });

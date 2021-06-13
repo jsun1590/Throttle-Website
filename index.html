@@ -33,12 +33,11 @@
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/youtube%20embed.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/css/lightgallery-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/store.css">
 </head>
 
 <body id="index">
     <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-dark">
-        <div class="container-fluid" id="navbar-container"><a class="navbar-brand" href="index.html"><img id="nav_logo" src="assets/img/nav_logo.svg" alt="navbar logo"></a><button data-bs-toggle="collapse" class="navbar-toggler hamburger hamburger--collapse" data-bs-target="#navcol-1"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+        <div class="container-fluid" id="navbar-container"><a class="navbar-brand" href="index.html"><img id="nav_logo" src="assets/img/icons/nav_logo.svg" alt="navbar logo"></a><button data-bs-toggle="collapse" class="navbar-toggler hamburger hamburger--collapse" data-bs-target="#navcol-1"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto nav">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -60,7 +59,7 @@
                     <div class="row">
                         <div class="col-12 text-center">
                             <h1><span class="highlight">Throttle</span>&nbsp;| EDM Artist</h1>
-                            <p>Lorem Ipsum Dolor Sit Amet</p><button class="btn btn-primary" type="button">Lorem</button>
+                            <p>Tomorrowland Live Set Now Available For Booking</p><a class="btn btn-primary" role="button" href="tours.html">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -82,21 +81,21 @@
                     </section>
                 </div>
             </div>
-            <div class="row">
+            <div class="row feature-music">
                 <div class="col-md-7">
                     <div class="video-container"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/6PcAb_8ahZE?loop=1&amp;playlist=6PcAb_8ahZE"></iframe></div>
                 </div>
                 <div class="col-md-5 d-md-flex align-items-md-center">
                     <div>
-                        <h2>New Single Cities</h2>
-                        <p class="text">Throttle's latest single "Cities (Acoustic)" is a reimagined acoustic rendition of his hit song "Cities" from the "Where U R" album.</p>
+                        <h2>Cities (Acoustic)</h2>
+                        <p class="text">Throttle's latest single "Cities (Acoustic)" is a reimagined acoustic rendition of his hit song "Cities" from the "Where U R" album,&nbsp;where all the songs connect through a beat and story. The Album became a huge hit when Rocket League allowed the whole album on it’s own to be in the game, with “For Me” being the song while booting up the game. “Where U Are” became the first official album on Rocket League under it’s own name and artist.<br><br></p><button class="btn btn-primary d-md-flex align-items-md-center download-lyrics" type="button"><i class="fas fa-file-word large-icon"></i>Download Lyrics</button>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-5"><iframe src="https://open.spotify.com/embed/album/4mDRIZ4BrOR14zUdF8JZUO" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
-            </div>
-            <div class="row">
+                <div class="col-md-6"><iframe class="spotify" src="https://open.spotify.com/embed/album/4mDRIZ4BrOR14zUdF8JZUO"
+width="100%" height="500" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
                 <div class="col-md-6">
                     <section id="twitter-feed"><a class="twitter-timeline" data-theme="dark" height="500" href="https://twitter.com/throttle?ref_src=twsrc%5Etfw">Tweets by throttle</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -123,7 +122,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-3 item">
-                    <div><a class="footer-logo" href="index.html"><img class="footer-logo" src="assets/img/footer_logo.svg"></a></div>
+                    <div><a class="footer-logo" href="index.html"><img class="footer-logo" src="assets/img/sponsors/footer_logo.svg"></a></div>
                     <div class="dropup d-inline-block d-md-block d-xl-inline-block"><button class="btn dropdown-toggle d-inline-flex justify-content-between align-items-center language" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-globe"></i><span class="language-text">English</span></button>
                         <div class="dropdown-menu language-menu"><a class="dropdown-item">English</a><a class="dropdown-item">French</a><a class="dropdown-item">African</a></div>
                     </div><button class="btn resize" type="button"><img class="d-flex justify-content-center" src="assets/img/icons/increase_font_size.svg"></button><button class="btn resize" type="button"><img class="d-flex justify-content-center" src="assets/img/icons/decrease_font_size.svg"></button>
@@ -163,6 +162,7 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/downloadjs@1.4.7/download.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/lightgallery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/share/lg-share.min.js"></script>
@@ -170,6 +170,7 @@
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/zoom/lg-zoom.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/macy@2.5.1/dist/macy.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
     <script src="assets/js/hero.js"></script>
     <script src="assets/js/index.js"></script>
     <script src="assets/js/script.js"></script>

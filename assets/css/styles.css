@@ -32,6 +32,7 @@ main {
 
 .text {
   color: var(--text-color);
+  word-spacing: 0.15em;
 }
 
 *:focus {
@@ -42,6 +43,11 @@ main {
   color: black;
   background-color: var(--brand-color);
   border-color: var(--light-gray);
+}
+
+.large-icon {
+  font-size: 2em !important;
+  margin-right: 10px;
 }
 
 /* quote */
@@ -90,8 +96,7 @@ blockquote:after {
 }
 
 figure {
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin: 0 10vw 100px 10vw;
 }
 
 .blockquote-footer {

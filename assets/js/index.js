@@ -10,15 +10,17 @@ $(document).ready(() => {
     navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
   });
 
-  $('video').each(function(){
-    if ($(this).is(":not(:in-viewport)")) {
-        $(this)[0].play();
-    } else {
-        $(this)[0].pause();
-    }
-  })
-});
+  $(document).on('click', '.download-lyrics', function() {
+  	var x = new XMLHttpRequest();
+  	x.open("GET", "http://localhost:6969/cities_lyrics.docx", true);
+  	x.responseType = 'blob';
+  	x.onload = function(e){
+      download(x.response, "Cities_Acoustic_Lyrics");
+  	}
+  	x.send();
+  });
 
+});
 jQuery(document.documentElement).keyup(function (event) {
   var owl = jQuery(".owl-carousel");
   // handle cursor keys

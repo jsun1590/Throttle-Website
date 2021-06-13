@@ -28,8 +28,8 @@ $(document).ready(() => {
     $.getJSON("assets/js/music.json", function(json) {
         // console.log(json);
         append_json(json);
-    });    
-    
+    });
+
     $(document).on('click', '.listen, .return', function() {
         $(this).parents(':nth(1)').find('.listen').prop('disabled', true);
         if ($(this).parents(':nth(1)').css('transform') == 'none') {
