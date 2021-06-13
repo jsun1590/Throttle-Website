@@ -22,7 +22,7 @@ function append_json(productData) {
 
     $(newItem).find(".modal.fade").addClass("id_"+object.id);
     $(newItem).find(".modal-title").html(object.name);
-    $(newItem).find(".modal-image").attr("src", "merch/" + object.imgSrc).attr("alt", object.name);
+    $(newItem).find(".modal-image").attr("src", "assets/img/merch/" + object.imgSrc).attr("alt", object.name);
     $(newItem).find(".modal-rating").css("background", "linear-gradient(90deg, #fc0 "
     + percent.toString() + "%, #303030 " + percent.toString() + "%)");
     $(newItem).find(".modal-description").html(object.description);
