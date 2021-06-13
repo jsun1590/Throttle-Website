@@ -19,7 +19,6 @@ $(document).ready(() => {
 
   $(".filter-group label").on("click", function() {
     var filtertag = $(this).attr('class').replace('btn btn-primary ', '');
-    console.log(filtertag)
     $(`.gallery-item.${filtertag}`).fadeIn(0, function() {
       macy.recalculate(true, true);
     });
