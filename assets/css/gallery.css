@@ -1,3 +1,7 @@
+#gallery-1 {
+  margin-top: 20px;
+}
+
 .gallery-image {
   width: 100%;
 }
@@ -12,9 +16,5 @@
 
 .gallery-item[data-macy-complete="1"] {
   opacity: 1;
-}
-
-#gallery main {
-  min-height: 100vh;
 }
 

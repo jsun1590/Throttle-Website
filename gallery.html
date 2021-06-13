@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/css/lightgallery-bundle.min.css">
     <link rel="stylesheet" href="assets/css/gallery.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/css/flag-icon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/tours.css">
 </head>
 
 <body id="gallery">
@@ -58,13 +61,20 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
-                    <aside>
-                        <h2><i class="fas fa-filter"></i>Filter</h2>
-                        <div class="btn-group-vertical btn-group-lg filter-group" role="group"><button class="btn btn-primary filter-all" type="button">All</button><button class="btn btn-primary filter-1" type="button">test-1</button></div>
-                    </aside>
+                <div class="col-md-12">
+                    <h2><i class="fas fa-filter mr-1"></i>&nbsp; Filter</h2><div class="btn-group btn-group-lg filter-group" role="group">
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked>
+  <label class="btn btn-primary filter-all" for="btnradio1">All</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
+  <label class="btn btn-primary filter-s2o" for="btnradio2">S2O Festival 2020</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio3">
+  <label class="btn btn-primary filter-tomorrow" for="btnradio3">Tomorrowland 2020</label>
+</div>
+
                 </div>
-                <div class="col-md-9" id="gallery-1"><a class="gallery-item filter-all" href="assets/img/gallery/1.jpg" data-lg-size="2000-1333"><img class="gallery-image" src="assets/img/gallery/1.jpg"></a><a class="gallery-item filter-all" href="assets/img/gallery/2.jpg" data-lg-size="1680-1120"><img class="gallery-image" src="assets/img/gallery/2.jpg"></a><a class="gallery-item filter-all filter-1" href="assets/img/gallery/3.jpg" data-lg-size="2560-1400"><img class="gallery-image" src="assets/img/gallery/3.jpg"></a><a class="gallery-item filter-all" href="assets/img/gallery/4.jpg" data-lg-size="2048-1365"><img class="gallery-image" src="assets/img/gallery/4.jpg"></a><a class="gallery-item filter-all" href="assets/img/gallery/5.jpg" data-lg-size="2048-1365"><img class="gallery-image" src="assets/img/gallery/5.jpg"></a><a class="gallery-item filter-all" href="assets/img/gallery/6.jpg" data-lg-size="1913-1312"><img class="gallery-image" src="assets/img/gallery/6.jpg"></a><a class="gallery-item filter-all" href="assets/img/gallery/7.jpg" data-lg-size="2000-1400"><img class="gallery-image" src="assets/img/gallery/7.jpg"></a></div>
+                <div class="col-md-12" id="gallery-1"><a class="gallery-item filter-all filter-tomorrow" href="assets/img/gallery/1.jpg" data-lg-size="2000-1333"><img class="gallery-image" src="assets/img/gallery/1.jpg"></a><a class="gallery-item filter-all filter-tomorrow" href="assets/img/gallery/2.jpg" data-lg-size="1680-1120"><img class="gallery-image" src="assets/img/gallery/2.jpg"></a><a class="gallery-item filter-all filter-s2o" href="assets/img/gallery/3.jpg" data-lg-size="2560-1400"><img class="gallery-image" src="assets/img/gallery/3.jpg"></a><a class="gallery-item filter-all filter-tomorrow" href="assets/img/gallery/4.jpg" data-lg-size="2048-1365"><img class="gallery-image" src="assets/img/gallery/4.jpg"></a><a class="gallery-item filter-all filter-s2o" href="assets/img/gallery/5.jpg" data-lg-size="2048-1365"><img class="gallery-image" src="assets/img/gallery/5.jpg"></a><a class="gallery-item filter-all filter-s2o" href="assets/img/gallery/6.jpg" data-lg-size="1913-1312"><img class="gallery-image" src="assets/img/gallery/6.jpg"></a><a class="gallery-item filter-all filter-s2o" href="assets/img/gallery/7.jpg" data-lg-size="2000-1400"><img class="gallery-image" src="assets/img/gallery/7.jpg"></a><a class="gallery-item filter-all filter-tomorrow" href="assets/img/gallery/8.jpg" data-lg-size="2000-959"><img class="gallery-image" src="assets/img/gallery/8.jpg"></a><a class="gallery-item filter-all filter-tomorrow" href="assets/img/gallery/9.jpg" data-lg-size="2000-1333"><img class="gallery-image" src="assets/img/gallery/9.jpg"></a><a class="gallery-item filter-all filter-s2o" href="assets/img/gallery/10.jpg" data-lg-size="1313-875"><img class="gallery-image" src="assets/img/gallery/10.jpg"></a><a class="gallery-item filter-all filter-tomorrow" href="assets/img/gallery/11.jpg" data-lg-size="1920-1080"><img class="gallery-image" src="assets/img/gallery/11.jpg"></a></div>
             </div>
         </div>
     </main>
@@ -74,7 +84,7 @@
                 <div class="col-12 col-md-3 item">
                     <div><a class="footer-logo" href="index.html"><img class="footer-logo" src="assets/img/sponsors/footer_logo.svg"></a></div>
                     <div class="dropup d-inline-block d-md-block d-xl-inline-block"><button class="btn dropdown-toggle d-inline-flex justify-content-between align-items-center language" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-globe"></i><span class="language-text">English</span></button>
-                        <div class="dropdown-menu language-menu"><a class="dropdown-item">English</a><a class="dropdown-item">French</a><a class="dropdown-item">African</a></div>
+                        <div class="dropdown-menu language-menu"><a class="dropdown-item" href="#void">English</a><a class="dropdown-item" href="#void">French</a><a class="dropdown-item" href="#void">Hindi</a></div>
                     </div><button class="btn resize" type="button"><img class="d-flex justify-content-center" src="assets/img/icons/increase_font_size.svg"></button><button class="btn resize" type="button"><img class="d-flex justify-content-center" src="assets/img/icons/decrease_font_size.svg"></button>
                 </div>
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2 offset-3 offset-sm-4 offset-md-0 offset-lg-1 offset-xl-2 offset-xxl-2 item">
@@ -112,6 +122,8 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/downloadjs@1.4.7/download.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/lightgallery.min.js"></script>

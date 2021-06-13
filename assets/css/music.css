@@ -48,7 +48,6 @@
 .listen, .return {
   width: 105px;
   position: absolute;
-  left: 50%;
   bottom: 15px;
   transform: translate(-50%, 0);
 }

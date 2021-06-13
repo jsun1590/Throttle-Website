@@ -1,0 +1,12 @@
+.accordion-collapse {
+  background-color: var(--very-dark-blue);
+}
+
+.accordion-button {
+  background-color: var(--very-dark);
+}
+
+.accordion-image {
+  width: 100%;
+}
+

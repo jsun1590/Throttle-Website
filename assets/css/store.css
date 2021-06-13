@@ -1,19 +1,3 @@
-.product {
-  background-color: var(--very-dark);
-  border-radius: 0.5em;
-  width: 300px;
-  height: 400px;
-  padding: 0;
-  text-align: center;
-  transition: all 0.1s;
-}
-
-.product .product-image {
-  border-radius: 0.5em;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
 #store-row {
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
@@ -22,6 +6,127 @@
 }
 
 .search-col {
+  margin-top: 10px;
   margin-bottom: 50px;
+}
+
+.store-btn {
+  margin-left: 20px;
+}
+
+#currency {
+  width: 110px;
+}
+
+#store-search {
+  border: solid white;
+}
+
+.product {
+  background-color: var(--very-dark);
+  border-radius: 0.5em;
+  width: 300px;
+  height: 450px;
+  overflow: hidden;
+  padding: 0;
+  transition: all 0.1s;
+}
+
+.product .product-name {
+  margin-left: 10%;
+}
+
+.product .image-container {
+  display: block;
+  border-radius: 0.5em;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.product .product-image {
+  height: 100%;
+  transition: all 0.1s;
+}
+
+.product .image-container:hover .product-image {
+  transform: scale(1.05);
+  filter: brightness(0.6);
+}
+
+.product .read-more {
+  position: absolute;
+  transform: translateY(10px);
+  opacity: 0;
+  font-size: 1.5em;
+  color: #fff;
+  transition: all 0.1s;
+}
+
+.product .image-container:hover .read-more {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.info-container {
+  margin-top: 10px;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.price {
+  display: inline;
+  color: #878787;
+  margin: 3px 0 0 0 !important;
+}
+
+.rating, .modal-rating {
+  display: inline;
+  margin: 0 !important;
+  -webkit-text-stroke: 0.5px #fc0;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+
+.add {
+  margin-left: 10%;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.modal-content {
+  height: 80vh;
+  width: 100vw;
+}
+
+.modal-content p {
+  margin-bottom: 0;
+}
+
+.modal-content .price {
+  color: white;
+}
+
+.modal-image-container {
+  position: relative;
+}
+
+.modal-image {
+  width: 100%;
+}
+
+.modal-title {
+  margin-bottom: 0;
+}
+
+.flag-icon {
+  margin-right: 6px;
 }
 

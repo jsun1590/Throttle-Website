@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Band Website</title>
+    <title>Cart | Throttle</title>
     <meta name="title" content="yy">
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
@@ -29,7 +29,11 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/css/flag-icon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/tours.css">
 </head>
 
 <body>
@@ -49,13 +53,127 @@
             </div>
         </div>
     </nav>
+    <main><div class="shopping-cart">
+<div class="px-4 px-lg-0">
+
+  <div class="pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 p-5 bg-dark rounded shadow-sm mb-5">
+
+          <!-- Shopping cart table -->
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col" class="border-0 bg2">
+                    <div class="p-2 px-3 text-uppercase">Product</div>
+                  </th>
+                  <th scope="col" class="border-0 bg2 text-center">
+                    <div class="py-2 text-uppercase">Price</div>
+                  </th>
+                  <th scope="col" class="border-0 bg2 text-center">
+                    <div class="py-2 text-uppercase">Quantity</div>
+                  </th>
+                  <th scope="col" class="border-0 bg2 text-center">
+                    <div class="py-2 text-uppercase">Remove</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <div class="p-2">
+                      <img src="assets/img/merch/cap_black.jpg" alt="cap" width="70" class="img-fluid rounded shadow-sm">
+                      <div class="ml-3 d-inline-block align-middle">
+                        <h5 class="mb-0"> <p class="text-white d-inline-block">Cap</p></h5>
+                      </div>
+                    </div>
+                    <td class="align-middle text-center"><strong>$15.00</strong></td>
+                    <td class="align-middle text-center"><strong>1</strong></td>
+                    <td class="align-middle text-center"><a href="#" class="text-white"><i class="fa fa-trash"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <div class="p-2">
+                      <img src="assets/img/merch/diary_black.jpg" alt="diary" width="70" class="img-fluid rounded shadow-sm">
+                      <div class="ml-3 d-inline-block align-middle">
+                        <h5 class="mb-0"><p class="text-white d-inline-block">Diary</p></h5>
+                      </div>
+                    </div>
+                  </th>
+                  <td class="align-middle text-center"><strong>$5.00</strong></td>
+                  <td class="align-middle text-center"><strong>2</strong></td>
+                  <td class="align-middle text-center"><a href="#" class="text-white"><i class="fa fa-trash"></i></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <div class="p-2">
+                      <img src="assets/img/merch/mask_black.jpg" alt="mask" width="70" class="img-fluid rounded shadow-sm">
+                      <div class="ml-3 d-inline-block align-middle">
+                        <h5 class="mb-0"> <p class="text-white d-inline-block">Mask</p></h5>
+                      </div>
+                    </div>
+                    <td class="align-middle text-center"><strong>$5.00</strong></td>
+                    <td class="align-middle text-center"><strong>1</strong></td>
+                    <td class="align-middle text-center"><a href="#" class="text-white"><i class="fa fa-trash"></i></a>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- End -->
+        </div>
+      </div>
+
+      <div class="row py-5 p-4 bg-dark rounded shadow-sm">
+        <div class="col-lg-6">
+          <div class="bg1 rounded-pill px-4 py-3 text-uppercase font-weight-bold">Coupon code</div>
+          <div class="p-4">
+            <p class="font-italic mb-4">If you have a coupon code, please enter it in the box below</p>
+            <div class="input-group bg-white mb-4 border rounded-pill p-2">
+              <input type="text" placeholder="Apply coupon" aria-describedby="button-addon3" class="form-control border-0 coupon">
+              <div class="input-group-append border-0">
+                <button id="button-addon3" type="button" class="btn btn-dark px-4 rounded-pill">Apply coupon</button>
+              </div>
+            </div>
+          </div>
+          <div class="bg1 rounded-pill px-4 py-3 text-uppercase font-weight-bold">Instructions for seller</div>
+          <div class="p-4">
+            <p class="font-italic mb-4">If you have any notes for the seller you can leave them in the box below</p>
+            <textarea name="msg" placeholder="Enter your notes here..." cols="30" rows="2" class="form-control"></textarea>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="bg1 rounded-pill px-4 py-3 text-uppercase font-weight-bold">Order summary </div>
+          <div class="p-4">
+            <p class="font-italic mb-4">Shipping and additional costs are precalculated based on the items you selected.</p>
+            <ul class="list-unstyled mb-4">
+              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Order Subtotal </strong><strong>$30.00</strong></li>
+              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping and handling</strong><strong>$10.00</strong></li>
+              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Tax</strong><strong>$0.00</strong></li>
+              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong>
+                <h5 class="highlight">$40.00</h5>
+              </li>
+            </ul><a href="#void" class="btn btn-dark bg1 rounded-pill py-2 btn-block checkout">Procceed to checkout</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</main>
     <footer class="footer-dark">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-3 item">
                     <div><a class="footer-logo" href="index.html"><img class="footer-logo" src="assets/img/sponsors/footer_logo.svg"></a></div>
                     <div class="dropup d-inline-block d-md-block d-xl-inline-block"><button class="btn dropdown-toggle d-inline-flex justify-content-between align-items-center language" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-globe"></i><span class="language-text">English</span></button>
-                        <div class="dropdown-menu language-menu"><a class="dropdown-item">English</a><a class="dropdown-item">French</a><a class="dropdown-item">African</a></div>
+                        <div class="dropdown-menu language-menu"><a class="dropdown-item" href="#void">English</a><a class="dropdown-item" href="#void">French</a><a class="dropdown-item" href="#void">Hindi</a></div>
                     </div><button class="btn resize" type="button"><img class="d-flex justify-content-center" src="assets/img/icons/increase_font_size.svg"></button><button class="btn resize" type="button"><img class="d-flex justify-content-center" src="assets/img/icons/decrease_font_size.svg"></button>
                 </div>
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2 offset-3 offset-sm-4 offset-md-0 offset-lg-1 offset-xl-2 offset-xxl-2 item">
@@ -93,6 +211,8 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/downloadjs@1.4.7/download.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/lightgallery.min.js"></script>

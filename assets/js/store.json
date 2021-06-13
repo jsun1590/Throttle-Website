@@ -1,51 +1,73 @@
 [{
-  "name": "Dairy",
+  "name": "Diary",
   "id": "1",
+  "price": 5,
+  "rating": 3,
+  "description": "Make planning that little bit more glamorous with the help of our diary. This perfectly portable diary features a day-per-page layout packed full of stylish curated checklists for eating, drinking, shopping. Each diary has been handbound in Melbourne in our signature crossgrain leather.",
   "imgSrc": "diary_black.jpg"
 },
 {
   "name": "Phone Case",
-  "id": "",
+  "id": "2",
+  "price": 3.99,
+  "rating": 3.5,
+  "description": "Designing for Sustainability—Our print designs take a holistic approach to sustainability by using UV curable GREENGUARD Gold certified ink. Throttle cases are the world’s first truly sustainable phone case. They are durable enough to protect your phone from drops and scratches and are also 100% recycled!",
   "imgSrc": "case_1_black.jpg"
 },
 {
   "name": "Hoodie",
-  "id": "",
+  "id": "3",
+  "price": 34,
+  "rating": 5,
+  "description": "A premium organic hoodie for the grind ahead. Featuring a hood, raglan sleeves, and a relaxed fit, the Throttle Hoodie has a signature look that will stand the test of time. Plus, it’s made of custom-developed, organic french terry, which gives it a premium feel without the luxury markup.",
   "imgSrc": "hoodie_black.jpg"
 },
 {
   "name": "Men's T-shirt",
-  "id": "",
+  "id": "4",
+  "price": 29.99,
+  "rating": 4.5,
+  "description": "Worked in soft and breathable cotton jersey, the logo-embroidered Custom Slim Fit Short Sleeve T-Shirt from Throttle redeems an easy-to-layer wardrobe staple that no discerning designer edit should be without.",
   "imgSrc": "shirt_men_1_black.jpg"
 },
 {
   "name": "Women's T-shirt",
-  "id": "",
+  "id": "5",
+  "price": 29.99,
+  "rating": 2.5,
+  "description": "Worked in soft and breathable cotton jersey, the logo-embroidered Custom Slim Fit Short Sleeve T-Shirt from Throttle redeems an easy-to-layer wardrobe staple that no discerning designer edit should be without.",
   "imgSrc": "shirt_women_black.jpg"
 },
 {
   "name": "Mug",
-  "id": "",
+  "id": "6",
+  "price": 7,
+  "rating": 1.5,
+  "description": "The white Hasami Porcelain was born from Designer and Creative Director Tristan Robertson. Blending traditional styles with a modern influence, each piece is made in Japan and is the perfect embodiment of minimalist tableware.",
   "imgSrc": "mug_white.jpg"
 },
 {
   "name": "Face Mask",
-  "id": "",
+  "id": "7",
+  "price": 5,
+  "rating": 3.5,
+  "description": "Because they are designed in a standard size, these masks are known to fit all snugly. One of the best safety measures to prevent people from inhaling infectious air particles is the face mask.",
   "imgSrc": "mask_black.jpg"
 },
 {
   "name": "Tote Bag",
-  "id": "",
+  "id": "8",
+  "price": 9,
+  "rating": 4.5,
+  "description": "The Throttle tote bag is made from all natural cotton. It comes with reinforced straps in black to complete the eye-catching look. The 5 oz. cotton is lightweight and sturdy, and the tote is gusseted for easy loading.",
   "imgSrc": "tote_black.jpg"
 },
 {
-  "name": "Poster",
-  "id": "",
-  "imgSrc": "poster_white.jpg"
-},
-{
   "name": "Cap",
-  "id": "2",
+  "id": "10",
+  "price": 15,
+  "rating": 3.5,
+  "description": "Introducing the revolutionary Throttle cap. Constructive with a sun resistant material, this black cap al features a breathable double meshed back and an adjustable strap to keep you sun safe with the greatest comfort. Sunburn ain't cool, wear this cap.",
   "imgSrc": "cap_black.jpg"
 }
 ]

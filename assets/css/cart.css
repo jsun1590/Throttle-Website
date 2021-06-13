@@ -1,0 +1,21 @@
+p {
+  margin-bottom: 0;
+}
+
+.bg2 {
+  background-color: var(--dark-1) !important;
+}
+
+.img-fluid {
+  margin-right: 10px;
+}
+
+.coupon {
+  margin-right: 5px;
+}
+
+.checkout {
+  color: black;
+  background-color: var(--brand-color);
+}
+

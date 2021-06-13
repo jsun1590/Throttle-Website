@@ -13,7 +13,7 @@ function append_json(musicData) {
     //Populate it
     $(newItem).find(".music-name").html(object.name);
     $(newItem).find(".music-description").html(object.type);
-    $(newItem).find(".music-year").html("Released: "+object.year);
+    $(newItem).find(".music-year").html(object.year);
     $(newItem).find(".music-image").attr("src", "music_covers/" + object.imgSrc).attr("alt", object.name);
     $(newItem).find(".music-spotify").attr("src", object.spotifyLink)
     $(newItem).find(".music-lightbox").attr("href", "music_covers/" + object.imgSrc);

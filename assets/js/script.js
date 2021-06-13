@@ -9,6 +9,6 @@ $(document).ready(() => {
   });
 
   $('.language-menu a').click(function(){
-  $('.language').html('<i class="fas fa-globe"></i>' + $(this).text())
+    $('.language').html('<i class="fas fa-globe"></i>' + $(this).text())
   })
 });
