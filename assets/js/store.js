@@ -13,7 +13,7 @@ function append_json(productData) {
     //Populate it
     console.log($(newItem))
     $(newItem).find(".product-name").html(object.name);
-    $(newItem).find(".product-image").attr("src", "merch/" + object.imgSrc).attr("alt", object.name);
+    $(newItem).find(".product-image").attr("src", "assets/img/merch/" + object.imgSrc).attr("alt", object.name);
     $(newItem).find(".price").html("$"+object.price.toFixed(2));
     $(newItem).find(".image-container").attr("data-bs-target", ".id_"+object.id);
     var percent = (object.rating/5)*100

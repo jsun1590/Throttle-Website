@@ -12,7 +12,7 @@ $(document).ready(() => {
 
   $(document).on('click', '.download-lyrics', function() {
   	var x = new XMLHttpRequest();
-  	x.open("GET", "http://localhost:6969/cities_lyrics.docx", true);
+  	x.open("GET", "assets/cities_lyrics.docx", true);
   	x.responseType = 'blob';
   	x.onload = function(e){
       download(x.response, "Cities_Acoustic_Lyrics");
